@@ -161,36 +161,42 @@
         margin: auto;
     }
     
-    .container .navigation a {
-        color: grey;
-        margin-left: 60px;
+    .container .navigation {
+        display: flex;
+        margin-left: 20px;
         margin-top: 60px;
+        margin-bottom: 100px;
+        justify-content: space-evenly;
+    }
+    
+    .container .navigation a {
         text-decoration: none;
+        color: grey;
     }
     
-    nav {
+    .middle3 {
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
     
-    .logo {
-        display: flex;
-        width: 150px;
-        align-self: flex-end;
-        padding-left: 20px;
-    }
-    
-    .headerCircleimage {
-        display: flex;
-    }
-    
-    .headerCircleimage h1 {
+    .innovation {
         font-weight: bold;
-        font-size: 70px;
+        font-size: 98px;
         width: 200px;
-        padding-bottom: 5px;
-        margin-top: 130px;
-        margin-left: 150px
+        padding-bottom: 1px;
+        margin-top: 50px;
+        margin-left: 100px;
+        text-align: center;
+    }
+    
+    .button {
+        color: black;
+        background: white;
+        border: 1px solid black;
+        margin-bottom: 100px;
+        padding: 15px 80px;
+        margin-left: 130px;
     }
     
     p {
@@ -198,30 +204,19 @@
         font-family: 'Ma Shan Zheng', cursive;
     }
     
-    button {
-        color: black;
-        background: white;
-        border: 1px solid black;
-        margin-bottom: 200px;
-        padding: 1.5px 20px;
-        margin-left: 145px;
-        display: flex;
-    }
-    
     .middleSection {
         display: flex;
         padding-bottom: 50px;
         padding-top: 30px;
+        flex-wrap: wrap;
     }
     
     .middleSection .features {
         width: 400px;
-        display: flex;
     }
     
     .middleSection .about {
         width: 400px;
-        display: flex;
         margin-left: 30px;
     }
     
@@ -234,15 +229,14 @@
     .lowerSection .services {
         display: flex;
         width: 280px;
+        flex-wrap: wrap;
     }
     
     .lowerSection .product {
-        display: flex;
         width: 280px;
     }
     
     .lowerSection .vision {
-        display: flex;
         width: 280px;
     }
     
@@ -256,7 +250,7 @@
         text-align: center;
         padding-bottom: 80px;
     }
-    /*service page starts here*/
+    /*NOTE: service page starts here*/
     
     .navigation2 {
         display: flex;
